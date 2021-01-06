@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS Grid</title>
     <link
       href="https://fonts.googleapis.com/css?family=Lato"
@@ -143,6 +144,18 @@
 
       .additional_branding_details p {
         margin-bottom: 42px;
+      }
+
+      @media (max-width: 48em) {
+        .style-details,
+        .dos_dont_wrapper {
+          grid-template-columns: 1fr;
+          grid-gap: 50px;
+        }
+
+        .style-details-text {
+          text-align: center;
+        }
       }
     </style>
   </head>
