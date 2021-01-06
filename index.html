@@ -61,10 +61,41 @@
         margin-bottom: 75px;
         display: grid;
         grid-template-columns: 2fr 2fr 1fr;
+        grid-gap: 30px;
+      }
+
+      .dont_image_box {
+        text-align: center;
+        margin: 20px;
       }
 
       .dont_image_box img {
         width: 50%;
+      }
+
+      .dont_image_box div {
+        font-size: 14px;
+        color: #999999;
+      }
+
+      .dos_donts_heading {
+        font-weight: 900;
+        margin-bottom: 20px;
+        margin-left: 40px;
+      }
+
+      .blue_text {
+        color: #0079ff;
+      }
+
+      .red_text {
+        color: #dc0004;
+      }
+
+      .dos_dont_lists li {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 16px;
       }
     </style>
   </head>
@@ -113,7 +144,7 @@
 
         <div class="dos_dont_wrapper">
           <div class="dos_dont_lists">
-            <div class="dos_donts_heading">Logo Do's</div>
+            <div class="dos_donts_heading blue_text">Logo Do's</div>
             <ul>
               <li>Provide adequate white space surrounding the logo.</li>
               <li>Icon must always be white</li>
@@ -123,7 +154,7 @@
           </div>
 
           <div class="dos_dont_lists">
-            <div class="dos_donts_heading">Logo Dont's</div>
+            <div class="dos_donts_heading red_text">Logo Dont's</div>
             <ul>
               <li>Strech or scale the logo non-uniformely</li>
               <li>Crop or partially cover the logo with other objects</li>
